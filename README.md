@@ -21,7 +21,9 @@ Run the weatherCLI.exe executable.
 
 ### Building from Source (for Developers)
 git clone https://github.com/r0hitB/weather_cli.git
+
 cd weather_cli
+
 cargo build --release
 
 
