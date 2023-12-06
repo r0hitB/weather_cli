@@ -1,5 +1,5 @@
 [package]
-name = "weatherCLI"
+name = "weather_cli"
 version = "0.1.0"
 edition = "2021"
 description = "A Rust CLI tool for weather information"
