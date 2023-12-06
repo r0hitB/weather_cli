@@ -12,7 +12,7 @@ WeatherCLI is a command-line tool that provides weather details using the OpenWe
 ./target/release/weatherCLI
 
 
-###Windows Users
+### Windows Users
 Visit the releases page on GitHub.
 Download the appropriate binary for your system.
 Extract the downloaded ZIP file.
