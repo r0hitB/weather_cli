@@ -20,7 +20,7 @@ Open a command prompt and navigate to the extracted directory.
 Run the weatherCLI.exe executable.
 
 
-##Usage
+## Usage
 Once the tool is installed, you can use it to get weather details. Open a terminal or command prompt and run:
 
 Interactively enter city name and country code
@@ -31,6 +31,6 @@ weatherCLI {city_name} {country_code}
 
 This will display weather details along with AQI (Air Quality Index) data.
 
-##License
+## License
 This project is licensed under the MIT License
 
