@@ -1,5 +1,5 @@
 # WeatherCLI
-WeatherCLI is a command-line tool that provides weather details using the OpenWeather API.
+WeatherCLI is a command-line tool written in Rust that provides weather details using the OpenWeather API.
 
 ## Installation
 ### Linux Users
