@@ -15,13 +15,11 @@ pub async fn get_weather(location: Location) {
                 }
                 Err(err) => {
                     eprintln!("Failed to parse weather data: {}", err);
-                    // You can decide whether to return an error or handle it differently based on your requirements
                 }
             }
         }
         Err(err) => {
             eprintln!("Failed to fetch weather data: {}", err);
-            // You can decide whether to return an error or handle it differently based on your requirements
         }
     }
 }
