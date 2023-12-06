@@ -19,15 +19,16 @@ Extract the downloaded ZIP file.
 Open a command prompt and navigate to the extracted directory.
 Run the weatherCLI.exe executable.
 
+### Building from Source (for Developers)
+git clone https://github.com/r0hitB/weather_cli.git
+cd weather_cli
+cargo build --release
+
 
 ## Usage
-Once the tool is installed, you can use it to get weather details. Open a terminal or command prompt and run:
-
-Interactively enter city name and country code
-weatherCLI
-
-Provide city name and country code as arguments
-weatherCLI {city_name} {country_code}
+Once installed, you can run WeatherCLI from the terminal. It will prompt you to enter the city name and country code. Alternatively, you can provide the city name and country code directly as arguments.
+weatherCLI            # Interactive mode
+weatherCLI {city} {country}  # Direct mode
 
 This will display weather details along with AQI (Air Quality Index) data.
 
