@@ -3,7 +3,7 @@ use reqwest;
 
 pub async fn get_weather(location: Location) {
     let url = format!(
-        "http://api.openweathermap.org/data/2.5/weather?lat={}&lon={}&appid=023356249c1f03f5843292dbc860105a&units=metric",
+        "http://api.openweathermap.org/data/2.5/weather?lat={}&lon={}&appid={}a&units=metric",
         location.lat, location.lon,
     );
 
